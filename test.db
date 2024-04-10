@@ -1,0 +1,13 @@
+record(ai, "ai1") {
+    field(DTYP, "Soft Channel")
+}
+
+record(ao, "ao1") {
+    field(PREC, "3")
+    field(EGU,  "Volts")
+    field(DRVL, "-10")
+    field(DRVH, "+10")
+    field(VAL,  "3.14")
+    field(OUT,  "ai1 PP")
+}
+
